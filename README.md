@@ -1,4 +1,7 @@
-# Clase05
+# Clase 05: Actividad práctica 
+##  Transforma tus Datos con RxJS
+- ✍️ **Consigna**
+    - Crear un observable que consuma datos mockeados, los filtre por una condición específica (ej. mayores de 30 años) y muestre el resultado en un componente Angular utilizando los operadores map y filter.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
 

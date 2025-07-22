@@ -1,11 +1,16 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Personas } from './components/personas/personas';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  standalone: true,
+  imports: [
+    RouterOutlet,
+    Personas
+  ],
+  template: `<app-personas></app-personas>`,
+  styleUrls: ['./app.css']
 })
 export class App {
   protected title = 'Clase05';

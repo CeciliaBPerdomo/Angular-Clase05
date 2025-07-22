@@ -1,0 +1,8 @@
+<!-- src/app/components/personas/personas.component.html -->
+<h2>Personas mayores de 30</h2>
+<ul>
+  <li *ngFor="let persona of personasMayores$ | async">
+    {{ persona.nombre }} - {{ persona.edad }} años
+  </li>
+</ul>
+
